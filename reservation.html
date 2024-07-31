@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  id="titre">
+        <h1> Ville de Ouagadougou </h1>
+        <div id="logo">
+          <img src="logo.png" alt="logo-ville">
+        </div>
+       
+      </div>
+       
+<div id="barnav">
+         <ol>
+           <li> <a href="index.html">Acceuil</a></li>
+           <li> <a href="patrimoine1.html">Patrimoine</a></li>
+           <li> <a href="Hotelss.html">hotel</a></li>
+           <li> <a href="GALERIE.html">Galérie</a></li>
+          </ol>
+      </div>
+     
+      <section id="reservation-form">
+        <h1>Réservez votre Hôtel</h1>
+        <form action="traitement_formulaire.php" method="POST">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+          
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="telephone">Téléphone :</label>
+          <input type="tel" id="telephone" name="telephone" required>
+          
+          <label for="date_arrivee">Date d'arrivée :</label>
+          <input type="date" id="date_arrivee" name="date_arrivee" required>
+          
+          <label for="date_depart">Date de départ :</label>
+          <input type="date" id="date_depart" name="date_depart" required>
+          
+          <label for="nombre_personnes">Nombre de personnes :</label>
+          <input type="number" id="nombre_personnes" name="nombre_personnes" required>
+          
+          <label for="hotel_choisi">mode de payement :</label>
+          <select id="hotel_choisi" name="hotel_choisi" required>
+            <option value="">choisissez le mode payement</option>
+            <option value="hotel1">cheque bancaire</option>
+            <option value="hotel2">Orange money</option>
+            <option value="hotel3">Moov money</option>
+          </select>
+          <input type="submit" value="Réserver">
+        </form>
+      </section>
+      <footer>
+        <div class="copy">Copyright © 2023. Notre belle ville Ouagadougou</div>
+    </div>
+</footer>
+
+
+</body>
+</html>

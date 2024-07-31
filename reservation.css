@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+   background-color:rgb(249, 160, 180);
+   }
+    
+   #barnav ol{
+       display: flex;
+       list-style-type: none;
+       justify-content: center;
+       margin-top: 0px;
+       width: 100%;
+       height: 50px;
+       background-color:  rgba(1, 1, 53, 0.795);
+       
+   
+   }
+   #titre {
+       display: block;
+       width: 100%;
+       height: 115px;
+       background-color:rgb(249, 160, 180);
+       color:  rgb(62, 13, 237);
+       text-align: center;
+       background-position: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   }
+   #logo {
+     position: relative;
+   }
+   
+   #logo img {
+     position: absolute;
+     top: 40%;
+     right: 50%;
+     transform: translate(-50%, -50%);
+     width: 50px;
+     height: 50px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+   }
+   #barnav ol {
+       display: flex;
+       list-style-type: none;
+       justify-content: center;
+       margin-top: 0px;
+       width: 100%;
+       height: 50px;
+       background-color: #ffffff;
+     }
+     
+     #barnav ol li {
+       text-decoration: none;
+       float: right;
+       list-style-type: none;
+       margin-right: 50px; 
+     }
+     
+     #barnav ol li a {
+       color: rgb(62, 13, 237);
+       text-decoration: none;
+     
+     }
+     #barnav ol li a:hover{
+       text-shadow: 0px 0px 8px #99a5f5; ;
+       font-size: 20px;
+   
+      }
+      #reservation-form {
+        text-align: center;
+        margin: 30px auto;
+        max-width: 600px;
+        border: solid white;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+       
+      }
+      form label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      form input,
+      form select {
+        width: 350px;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+      }
+      
+      form input[type="submit"] {
+        background-color: rgba(1, 1, 53, 0.795);
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      form input[type="submit"]:hover {
+        background-color: rgba(1, 1, 53, 0.795);
+      }
+      footer{
+        width: 100%;
+        background-color:#ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
